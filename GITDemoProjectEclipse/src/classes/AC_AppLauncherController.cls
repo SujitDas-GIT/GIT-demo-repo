@@ -9,7 +9,7 @@ public with sharing class AC_AppLauncherController{
     // public variables
     public String link {get;set;}      
     public Application__c app {get;set;}
-    public String caseC {get;set;} 
+    public String caseC {get;set;}  
     
     // private variables
     private List<AppParameter__c> appParams = new List<AppParameter__c>();
